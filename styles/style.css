@@ -1,0 +1,184 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+html, body{
+    height:100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    min-height:100vh;
+    
+}
+.image1{
+    position:relative;
+    z-index: -0.1;
+    opacity:0.5;
+    text-align: center;
+    
+}
+.first-section{
+    position:relative;
+    z-index: 0;
+    background-color: grey;
+    
+   
+}
+.landing{
+    position:absolute;
+    top:0;
+    
+    
+    
+}
+#landing-p{
+    position:relative;
+    width:80%;
+    padding:20px;
+    left:200px;
+    top:-200px;
+    color:white;
+    font-size:24px;
+    font-style: italic;
+}
+
+#logo{
+    font-size:36px;
+}
+.landing ul li{
+
+    display: inline;
+    padding:30px;
+    right:50%;
+    text-align: center;
+    
+}
+.landing ul li a:hover{
+    color:white;
+    transition: 1s;
+}
+.landing ul li a{
+    text-decoration: none;
+    font-size: 24px;
+}
+#green{
+    color:orange;
+}
+
+.second-section{
+    position:relative;
+    display:flex;
+    padding:10px 0 10px 0;
+}
+    
+
+.image2{
+   
+    float:left;
+    
+    margin:20px;
+   
+}
+#image2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    align-items: center;
+    text-align: justify;
+    top:250px;
+    left:700px;
+    padding:20px;
+    
+    
+}
+
+#chat{
+   position:relative;
+   left:400px;
+   top:400px;
+   padding:20px;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform:uppercase;
+   text-decoration: none;
+   background: grey;
+   color:white;
+   background-size: auto;
+   border-radius: 10%;
+}
+#chat:hover{
+    background-color: green;
+    transition:1s;
+}
+
+
+.third-section{
+    position:relative;
+    display:flex;
+    padding:30px 0 30px 0;
+}
+.image3{
+    position:absolute;
+    padding:50px;
+    float:right;
+    transform:translateX(1250px);
+}
+#image3{
+    float:left;
+    position:absolute;
+    top:300px;
+    width:60%;
+    padding:40px;
+    margin:10px;
+    font-size: 20px;
+}
+#chat3{
+    position:relative;
+    left:400px;
+    top:450px;
+    padding:20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-decoration: none;
+    background: grey;
+    color:white;
+    background-size: auto;
+    border-radius: 10%;
+}
+#chat3:hover{
+    background-color: green;
+    transition:1s;
+}
+.footer{
+    position:absolute;
+    bottom:0%;
+    
+    
+}
+#alex{
+
+    text-transform:uppercase;
+    position:relative;
+    font-weight:bolder;
+    font-size:26px;
+    left:500px;
+    top:100px;
+    color: green;
+}
+#alex:hover{
+    color:blue;
+}
+#andrew{
+    position:relative;
+    text-transform:uppercase ;
+    left:550px;
+    top:150px;
+    font-size:26px;
+    color:green;
+}
+#andrew:hover{
+    color:blue;
+}
